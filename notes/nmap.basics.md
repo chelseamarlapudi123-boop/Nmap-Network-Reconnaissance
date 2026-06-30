@@ -35,3 +35,9 @@ A port is a numbered communication endpoint on a computer. Services listen on sp
 443 - HTTPS
 445 - SMB
 3389 - RDP
+
+## Host Discovery
+
+Host discovery is the process of determining whether a device is online before scanning its ports.
+
+Nmap first checks if the target responds. If the host is up, Nmap proceeds with further scans. If the host does not respond, Nmap may stop scanning unless instructed otherwise.
